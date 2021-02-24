@@ -18,6 +18,9 @@ export function conversionNode(vnode) {
     } 
 }
 
+function asdasdsa(params) {
+    return 'asdasd'
+}
 function createElementTag(vnode) {
     const {type, props} = vnode;
     const node = document.createElement(type);
