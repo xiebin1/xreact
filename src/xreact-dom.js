@@ -7,4 +7,4 @@ function render(vnode, container) {
 
 export default {
     render
-}
+} 

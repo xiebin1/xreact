@@ -14,7 +14,7 @@ export function initVNode(vnode) {
         return document.createTextNode(vnode)
     }
     
-    if(vtype === 1) {
+    if(vtype === 1) { 
         return createElement(vnode)
     }
     else if(vtype === 2) {
